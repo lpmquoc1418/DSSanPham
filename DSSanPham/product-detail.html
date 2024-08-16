@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết sản phẩm</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Liên kết đến CSS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Liên kết đến jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script> <!-- Liên kết đến Bootstrap JS -->
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Shoppee clone</h1>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Tìm kiếm sản phẩm...">
+            <button type="button" id="search-button">Tìm kiếm</button>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="#">Danh mục</a></li>
+            <li><a href="#">Khuyến mãi</a></li>
+            <li><a href="#">Liên hệ</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="product-detail">
+            <div class="product-image">
+                <img id="product-img" src="" alt="Hình ảnh sản phẩm">
+            </div>
+            <div class="product-info">
+                <h1 id="product-name">Tên sản phẩm</h1>
+                <p id="product-description">Mô tả sản phẩm</p>
+                <p id="product-price">Giá: </p>
+            </div>
+        </section>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+

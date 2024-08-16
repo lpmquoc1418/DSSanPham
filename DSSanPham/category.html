@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh mục Sản phẩm</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Liên kết đến CSS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Liên kết đến jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script> <!-- Liên kết đến Bootstrap JS -->
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Shoppee clone</h1>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Tìm kiếm sản phẩm...">
+            <button type="button" id="search-button">Tìm kiếm</button>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="category.html">Danh mục</a></li>
+            <li><a href="#">Khuyến mãi</a></li>
+            <li><a href="#">Liên hệ</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="category-details">
+            <h2 id="category-title">Danh mục Sản phẩm</h2>
+            <div id="category-products">
+                <!-- Danh sách sản phẩm sẽ được thêm vào đây bằng JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <script src="category.js"></script>
+</body>
+</html>
